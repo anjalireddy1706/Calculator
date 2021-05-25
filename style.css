@@ -116,4 +116,8 @@ h1{
     body{
         overflow: none;
     }
+    .calci{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
   }
