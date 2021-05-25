@@ -111,4 +111,7 @@ h1{
         margin-left: 27%;
         font-size: 33px;
     }
+    body{
+        overflow: none;
+    }
   }
