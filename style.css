@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding:0;
+    line-height: 0.5;
+    background-image: url('/pic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+.calci{
+    width: 400px;
+    padding-top: 350px;
+    padding-bottom: 300px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transition:0.25px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: black;
+    opacity: 0.6;
+}
+#zero{
+
+height: 55px;
+width: 120px;
+font-size: 25px;
+font-family: sans-serif;
+font-weight: 300px;
+
+}
+
+#display{
+    
+    border:none;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 263px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 300px;
+    height: 47px;
+    margin: auto;
+    border:2px solid white(5, 218, 255, 0.726);
+    color: black;
+
+
+
+}
+.button{
+    width: 55px;
+    height: 55px;
+    padding-top: -1;
+    font-size: 25px;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 300px;
+    border:0;
+    border-radius: 30px;
+    margin: 5px;
+    transition:0.25px;
+    
+    
+}
+
+h1{
+    margin-top: 90px;
+    margin-left: 41.5%;
+    font-family: sans-serif;
+    font-size:38px;;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;}
+    
+
+.operator{
+    width: 55px;
+    height: 55px;
+    padding-top: -1px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 500px;
+    border:0;
+    border-radius: 30px;
+    margin: 1.5px;
+    transition:0.25px;
+    cursor:pointer;
+}
+
+
+.operator:hover{
+    background: #929ea0;
+}
+.button:hover{
+    background: #929ea0;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        margin-top: 50px;
+        margin-left: 27%;
+        font-size: 33px;
+    }
+  }
