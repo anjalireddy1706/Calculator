@@ -16,6 +16,8 @@ body{
     width: 400px;
     padding-top: 350px;
     padding-bottom: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: absolute;
     top:50%;
     left:49%;
