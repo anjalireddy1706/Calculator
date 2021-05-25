@@ -18,7 +18,7 @@ body{
     padding-bottom: 300px;
     position: absolute;
     top:50%;
-    left:49.5%;
+    left:49%;
     transition:0.25px;
     transform: translate(-50%,-50%);
     text-align: center;
